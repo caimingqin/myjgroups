@@ -19,6 +19,7 @@ public class NodeOne extends ReceiverAdapter implements ServletContextListener {
 		try {
 			System.out.println("==========================================start JChannel===>>>>>>>>>>");
 			jChannel = new JChannel("udp.xml");
+			jChannel.setDiscardOwnMessages(true); //不接自己发送的消息
 			jChannel.setReceiver(this);
 			jChannel.connect("dms-cluster");
 		} catch (Exception e) {
@@ -57,7 +58,7 @@ public class NodeOne extends ReceiverAdapter implements ServletContextListener {
 	}
 
 	public void contextDestroyed(ServletContextEvent sce) {
-		// TODO Auto-generated method stub
+		jChannel.close();
 
 	}
 

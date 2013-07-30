@@ -8,7 +8,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.jgroups.Message;
-import org.jgroups.stack.IpAddress;
 
 public class SendMsgServlet extends HttpServlet{
 
@@ -19,10 +18,14 @@ public class SendMsgServlet extends HttpServlet{
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+              doPost(req, resp);
+	}
+	@Override
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String msg = req.getParameter("msg");
 		System.out.println("msg===========>>>"+msg);
-		IpAddress ipAddress = new IpAddress("192.168.17.199", 10199);
-		Message message = new Message(ipAddress, "send to 192.168.17.199 10199 ");
+//		IpAddress ipAddress = new IpAddress("192.168.17.199", 10199);
+		Message message = new Message(null, new User("00008888", "caimingqin"));
 		try {
 			NodeOne.jChannel.send(message);
 		} catch (Exception e) {

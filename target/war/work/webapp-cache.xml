@@ -8,7 +8,7 @@
           <string>WEB-INF/web.xml</string>
           <string>WEB-INF/classes/com/jgroups/server/NodeOne.class</string>
           <string>WEB-INF/classes/com/jgroups/server/SendMsgServlet.class</string>
-          <string>WEB-INF/classes/com/jgroups/server/test/ServerTest.class</string>
+          <string>WEB-INF/classes/com/jgroups/server/User.class</string>
           <string>WEB-INF/classes/udp.xml</string>
           <string>WEB-INF/lib/jgroups-3.3.0.Final.jar</string>
         </pathsSet>

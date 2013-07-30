@@ -1,0 +1,29 @@
+#surefire
+#Tue Jul 30 14:49:55 CST 2013
+testClassesDirectory=E\:\\android\\workplace\\myjgroups\\target\\test-classes
+classPathUrl.4=C\:\\Users\\caimingqin\\.m2\\repository\\javax\\servlet\\servlet-api\\2.5\\servlet-api-2.5.jar
+classPathUrl.3=C\:\\Users\\caimingqin\\.m2\\repository\\org\\jgroups\\jgroups\\3.3.0.Final\\jgroups-3.3.0.Final.jar
+classPathUrl.2=C\:\\Users\\caimingqin\\.m2\\repository\\junit\\junit\\4.1\\junit-4.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=E\:\\android\\workplace\\myjgroups\\target\\classes
+reportsDirectory=E\:\\android\\workplace\\myjgroups\\target\\surefire-reports
+classPathUrl.0=E\:\\android\\workplace\\myjgroups\\target\\test-classes
+dirscanner.0=directoryScannerOptions
+providerConfiguration=org.apache.maven.surefire.junit4.JUnit4Provider
+testSuiteDefinitionTestSourceDirectory=E\:\\android\\workplace\\myjgroups\\src\\test\\java
+surefireClassPathUrl.1=C\:\\Users\\caimingqin\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-api\\2.7.1\\surefire-api-2.7.1.jar
+surefireClassPathUrl.0=C\:\\Users\\caimingqin\\.m2\\repository\\org\\apache\\maven\\surefire\\surefire-junit4\\2.7.1\\surefire-junit4-2.7.1.jar
+report.2=org.apache.maven.surefire.report.XMLReporter
+useSystemClassLoader=true
+report.1=org.apache.maven.surefire.report.BriefFileReporter
+report.0=org.apache.maven.surefire.report.ForkingConsoleReporter
+excludes0=**/*$*
+isTrimStackTrace=true
+dirscanner.0.params=E\:\\android\\workplace\\myjgroups\\target\\test-classes|[**/Test*.java, **/*Test.java, **/*TestCase.java]|[**/*$*]
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+dirscanner.0.types=java.io.File|java.util.ArrayList|java.util.ArrayList
+includes0=**/Test*.java
+childDelegation=false

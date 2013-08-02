@@ -1,5 +1,5 @@
 #surefire
-#Tue Jul 30 17:23:47 CST 2013
+#Fri Aug 02 15:00:54 CST 2013
 testClassesDirectory=E\:\\android\\workplace\\myjgroups\\target\\test-classes
 classPathUrl.4=C\:\\Users\\caimingqin\\.m2\\repository\\javax\\servlet\\servlet-api\\2.5\\servlet-api-2.5.jar
 classPathUrl.3=C\:\\Users\\caimingqin\\.m2\\repository\\org\\jgroups\\jgroups\\3.3.0.Final\\jgroups-3.3.0.Final.jar
